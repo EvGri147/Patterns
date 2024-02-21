@@ -9,7 +9,7 @@ branches:
 build: off
 
 install:
-  - java -jar ./artifacts/app-replan-delivery.jar -P:profile=test &
+  - java -jar ./artifacts/app-replan-delivery.jar &
 
 build_script:
   - chmod +x gradlew
